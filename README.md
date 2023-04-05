@@ -14,9 +14,9 @@ PyTexas would be a good conference for Microsoft to have a presence at in the fu
 
 ### _Walking the Line_ by Brandon Rhodes
 
-This keynote was centered on how errors in code make Python developers feel. Brandon demonstrated how too much going right can lead to insecurity and doubt, if the code I am writing is really being tested. In contrast, too much red was made to impact developers to feel that the file was being read and so on. It was also pointed out that many times the errors that came up are not conceptual but regarding smaller things, such as which file is being read.
+This keynote was centered on how errors in code make Python developers feel. Brandon demonstrated how too much going right can lead to insecurity and doubt, and consider if the code a developer is writing is really being tested. In contrast, too many errors was made to impact developers to feel frustration. It was also pointed out that many times the errors that came up are not conceptual but regarding smaller things that don't relate to the logic or even code being written.
 
-Brandon also empahsized how the goal is to ensure that you don't make changes that lead to a plethora of more changes - rather that developers should find the root cause and go from there. Furthermore, he pointed out a classic mistake that people think simplifying code doesn't always optimize it. Brandon, as well as many speakers through the conference also discussed Test Driven Development as a key principle to shipping better code.
+Brandon also empahsized how the goal is to ensure that you don't make changes that lead to a plethora of more changes - rather that developers should find the root cause and go from there. Furthermore, he pointed out a classic mistake that people think simplifying code doesn't always optimize it. Brandon, as well as many speakers through the conference also discussed Test Driven Development as a key principle to shipping better, more reliable code.
 
 ### _Tale of Two Typings_ by Thomas Stephens
 
@@ -24,20 +24,20 @@ This was a talk about new processes that helped the team improve their practices
 
 ### _Hidden Gems in ML Flow that improve Model Credibility_ by Krishi Sharma
 
-Krishi described the three gems that have changed her Machine Learning team's way of developing. Her tips were to:
+Krishi described the three gems that have changed her Machine Learning team's way of developing. She shared anecdotes which lead her team to believe that these three gems have improved their AI model's credibility:
 1. back up your data
 2. commit frequently
 3. version your data
 
 ### _Exploring Sociotechnical Security Concerns in Critical Open Source Python Repositories_ by Jessy Ayala
 
-During this talk, Jessy wanted to emphasize how many open source repoitories are lacking when it comes to security, and the importance of leveraging free GitHub extensions such as CodeQL to protect these repositories. He demonstrated some key issues by walking us through security risks on the vast number of open source reposiories for 3D printers, and the attacks that can be easily sent on these. Jessy pointed out that 99% of phishing attachs have human involvement and there is reason to be hesitant about secuirty vulnerabilities for open source repositories. 
+During this talk, Jessy wanted to emphasize how many open source repoitories are lacking when it comes to security, and the importance of leveraging free GitHub extensions such as CodeQL to protect these repositories. He demonstrated some key issues by walking the audience through security risks on the vast number of open source reposiories for 3D printers, and the attacks that can be easily sent on these. Jessy pointed out that 99% of phishing attachs have human involvement and there is reason to be hesitant about secuirty vulnerabilities for open source repositories. 
 
 ### _A Build Engineer in a Buildless Lang_ by Joshua Cannon
 
-Joshua gave this talk from the perspective of caring about the developer team's experience when it comes to following eingeering processes. He emphasized a case for having a mono repository, with the pros being easy collaboration and auto refactoring when required. Sophisticated tools are generally required when having a mono repository due to the amount of code that is in one place. He also shared his preference for Poetry and Black. 
+Joshua gave this talk from the perspective of caring about the developer team's experience when it comes to following eingeering processes. He emphasized a case for having a mono repository, with the pros being easy collaboration and auto refactoring when required. Sophisticated tools are generally required when having a mono repository due to the amount of code that is in one place. He also shared his preference for tools including Poetry and Black. 
 
-The idea of the talk was that Python development is a social thing. if it wasn’t, we would always write assembly. part of the reason we use Python is so it can be easy for humans to read.
+The idea of the talk was that Python development is a social thing. If it wasn’t, we would always write assembly. Part of the reason we use Python is so it can be easy for humans to read.
 
 ### _Build Your Own Chat GPT_ by Lizzie Siegle
 
@@ -48,8 +48,7 @@ Lizzie demonstrated how to use Flask to make a Web App using the Chat GPT API. T
 Aly shared some key issues with health care and technology that exists currently. He explained that getting health data across facilities is not very straightforward.
 
 HL7 was formed in 1987. It was the first attempt to create a common data interface standards for rapidly growing EHR and health information technologies.
-EHR adoption increased but does it mean better outcomes?
-system to create more documentation for patients and easily share with members of the medical team
+EHR adoption increased, but does it mean better outcomes? A system to create more documentation for patients and easily share with members of the medical team is something that can lead to better outcomes.
 
 ### _Duck Typing, Metaclasses, & Recursion: Building a Generalized Deep Collection Type_ by Joseph Nix
 
@@ -71,20 +70,18 @@ Sophia also hosts a book club for AI/ML books that is held virtually on Discord.
 
 Tristan works at Bellingcat, a non-profit independent research collective that was founded in 2014. THe organization participates in open source research.
 
-what is a digital investigation
+What is a digital investigation?
 
-open-source research
-research that uses information open to the public
-investigator and consumer have equal access toinformation sources
-increases transparency, accountability, reproductibility
-many sources were previously only available to governments
-there’s a lot of information on the internet
-most common open source materials
-google maps
-CNN
-YouTube
-Google ebooks
-geospatial, media, user-generated, databases& archived materials
-Python tool: Social media scraping framework
-Analyze the ecosystem of QAnon and adjacent online conspiracy communities in Europe
-Collected lots of data
+* open-source research
+* research that uses information open to the public
+* investigator and consumer have equal access toinformation sources
+* increases transparency, accountability, reproductibility
+* many sources were previously only available to governments
+* there’s a lot of information on the internet
+
+Most common open source materials
+* geospatial i.e. Google maps
+* media i.e. CNN
+* user-generated i.e. YouTube
+* databases i.e. Google eBooks
+* archived material
