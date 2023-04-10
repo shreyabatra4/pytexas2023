@@ -6,7 +6,7 @@ This was a single-track conference held at the Austin Public Library from April 
 
 ![Attendees facing the main stage](conference.png)
 
-Shreya had the opportunity to give a [lightening talk](https://www.youtube.com/watch?v=Y_lfGon4iiE&list=PL0MRiRrXAvRhiru4h8fVF987v5tdLlr1X&t=715s) in which she discussed Azure Functions use cases and introduced the v2 programming model for Python. Speaking to the audience, she found that of the attendees, approximately thirty individuals had experience using serverless technologies, less than ten had experience using Azure Functions, and fewer had used Azure Functions in Python.
+Shreya had the opportunity to give a [lightning talk](https://www.youtube.com/watch?v=Y_lfGon4iiE&list=PL0MRiRrXAvRhiru4h8fVF987v5tdLlr1X&t=715s) in which she discussed Azure Functions use cases and introduced the v2 programming model for Python. Speaking to the audience, she found that of the attendees, approximately thirty individuals had experience using serverless technologies, less than ten had experience using Azure Functions, and fewer had used Azure Functions in Python.
 
 ![Shreya giving a lightning talk on the main stage, slide shows "Azure Functions"](lightning_talk)
 
