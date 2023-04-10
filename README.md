@@ -1,10 +1,10 @@
 # [PyTexas 2023](https://www.pytexas.org/)
 
-PyTexas is an annually held gathering for the Python community in Texas and is organized and run by community volunteers. The two day event consists of talks about software development, data science, and community, centered on Python. Following is a summary of attending PyTexas 2023.
+PyTexas is an annually held gathering for the Python community in Texas and is organized and run by community volunteers. The two-day event consists of talks about software development, data science, and community, centered on Python. Following is a summary of attending PyTexas 2023.
+
+This was a single-track conference held at the Austin Public Library from April 1-2. There were about ~120 attendees from all over the world, from professionals in varying fields in industry and education. Most talks were thirty minutes long, with limited Q&A if time allowed. For more details on the presentations, see the Notes section below. You can also view the sessions [here](https://www.youtube.com/playlist?list=PL0MRiRrXAvRhiru4h8fVF987v5tdLlr1X). Due to the state of the economy, there were no booths set up with sponsors, and networking was limited to speaking with attendees during breaks between speakers.
 
 ![Attendees facing the main stage](conference.png)
-
-This was a single track conference held at the Austin Public Library from April 1-2. There were about ~120 attendees from all over the world, from professionals in varying fields in industry and education. Most talks were thirty minutes long, with limited Q&A if time allowed. For more details on the presentations, see the Notes section below. You can also view the sessions [here](https://www.youtube.com/playlist?list=PL0MRiRrXAvRhiru4h8fVF987v5tdLlr1X). Due to the state of the economy, there were no booths set up with sponsors, and networking was limited to speaking with attendees during breaks between speakers.
 
 Shreya had the opportunity to give a [lightening talk](https://www.youtube.com/watch?v=Y_lfGon4iiE&list=PL0MRiRrXAvRhiru4h8fVF987v5tdLlr1X&t=715s) in which she discussed Azure Functions use cases and introduced the v2 programming model for Python. Speaking to the audience, she found that of the attendees, approximately thirty individuals had experience using serverless technologies, less than ten had experience using Azure Functions, and fewer had used Azure Functions in Python.
 
@@ -14,7 +14,7 @@ Overall, PyTexas shined a light on the character of the Python community. Though
 
 PyTexas would be a good conference for Microsoft to have a presence at in the future as the reach for a presentation would be to 100+ attendees, and there was space for education on Serverless technologies. Limited data showed that not a lot of Python developers at this event were Azure Functions users, but that they would be open to education. I hypothesize that smaller communities of language focused developers would be interested to learn more about Azure and due to presence from smaller organizations, it is possible that potential customers have a straightforward path to including Azure in their infrastructures.
 
-Some takeaways for the team include talking on decorators which helped us determine what principles of decorators make sense to Python developers when considering the v2 programming model. Several discussions also centered on development principles like writing clean code, security principles of open source repositories, and test driven development. These principles can likely be applied to improve the Python worker code base.
+Some takeaways for the team include talking on decorators which helped us determine what principles of decorators make sense to Python developers when considering the v2 programming model. Several discussions also centered on development principles like writing clean code, security principles of open-source repositories, and test driven development. These principles can likely be applied to improve the Python worker code base.
 
 ![](quotes.jpg)
 
@@ -24,28 +24,28 @@ Some takeaways for the team include talking on decorators which helped us determ
 
 ### _Walking the Line_ by Brandon Rhodes
 
-This keynote was centered on how errors in code make Python developers feel. Brandon demonstrated how too much going right can lead to insecurity and doubt, and consider if the code a developer is writing is really being tested. In contrast, too many errors was made to impact developers to feel frustration. It was also pointed out that many times the errors that came up are not conceptual but regarding smaller things that don't relate to the logic or even code being written.
+This keynote was centered on how errors in code make Python developers feel. Brandon demonstrated how too much going right can lead to insecurity and doubt and consider if the code a developer is writing is really being tested. In contrast, too many errors were made to impact developers to feel frustration. It was also pointed out that many times the errors that came up are not conceptual but regarding smaller things that don't relate to the logic or even code being written.
 
-Brandon also empahsized how the goal is to ensure that you don't make changes that lead to a plethora of more changes - rather that developers should find the root cause and go from there. Furthermore, he pointed out a classic mistake that people think simplifying code doesn't always optimize it. Brandon, as well as many speakers through the conference also discussed Test Driven Development as a key principle to shipping better, more reliable code.
+Brandon also emphasized how the goal is to ensure that you don't make changes that lead to a plethora of more changes - rather that developers should find the root cause and go from there. Furthermore, he pointed out a classic mistake that people think simplifying code doesn't always optimize it. Brandon, as well as many speakers through the conference also discussed Test Driven Development as a key principle to shipping better, more reliable code.
 
 ### _Tale of Two Typings_ by Thomas Stephens
 
-This was a talk about new processes that helped the team improve their practices. Thomas shared that "Legacy code is just code without tests", and went in depth regarding Type & Test driven development.
+This was a talk about new processes that helped the team improve their practices. Thomas shared that "Legacy code is just code without tests” and went in depth regarding Type & Test driven development.
 
 ### _Hidden Gems in ML Flow that improve Model Credibility_ by Krishi Sharma
 
-Krishi described the three gems that have changed her Machine Learning team's way of developing. She shared anecdotes which lead her team to believe that these three gems have improved their AI model's credibility:
+Krishi described the three gems that have changed her Machine Learning team's way of developing. She shared anecdotes which led her team to believe that these three gems have improved their AI model's credibility:
 1. back up your data
 2. commit frequently
 3. version your data
 
-### _Exploring Sociotechnical Security Concerns in Critical Open Source Python Repositories_ by Jessy Ayala
+### _Exploring Sociotechnical Security Concerns in Critical Open-Source Python Repositories_ by Jessy Ayala
 
-During this talk, Jessy wanted to emphasize how many open source repoitories are lacking when it comes to security, and the importance of leveraging free GitHub extensions such as CodeQL to protect these repositories. He demonstrated some key issues by walking the audience through security risks on the vast number of open source reposiories for 3D printers, and the attacks that can be easily sent on these. Jessy pointed out that 99% of phishing attachs have human involvement and there is reason to be hesitant about secuirty vulnerabilities for open source repositories. 
+During this talk, Jessy wanted to emphasize how many open-source repositories are lacking when it comes to security, and the importance of leveraging free GitHub extensions such as CodeQL to protect these repositories. He demonstrated some key issues by walking the audience through security risks on the vast number of open-source repositories for 3D printers, and the attacks that can be easily sent on these. Jessy pointed out that 99% of phishing attacks have human involvement and there is reason to be hesitant about security vulnerabilities for open-source repositories. 
 
 ### _A Build Engineer in a Buildless Lang_ by Joshua Cannon
 
-Joshua gave this talk from the perspective of caring about the developer team's experience when it comes to following eingeering processes. He emphasized a case for having a mono repository, with the pros being easy collaboration and auto refactoring when required. Sophisticated tools are generally required when having a mono repository due to the amount of code that is in one place. He also shared his preference for tools including Poetry and Black. 
+Joshua gave this talk from the perspective of caring about the developer team's experience when it comes to following engineering and auto refactoring when required. Sophisticated tools are generally required when having a mono repository due to the amount of code that is in one place. He also shared his preference for tools including Poetry and Black. 
 
 The idea of the talk was that Python development is a social thing. If it wasn’t, we would always write assembly. Part of the reason we use Python is so it can be easy for humans to read.
 
@@ -78,7 +78,7 @@ Sophia also hosts a book club for AI/ML books that is held virtually on Discord.
 
 ### _Using Python for Digital Investigations_ by Tristan Lee
 
-Tristan works at Bellingcat, a non-profit independent research collective that was founded in 2014. THe organization participates in open source research.
+Tristan works at Bellingcat, a non-profit independent research collective that was founded in 2014. The organization participates in open-source research.
 
 What is a digital investigation?
 
