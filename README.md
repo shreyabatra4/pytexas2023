@@ -8,7 +8,7 @@ This was a single track conference held at the Austin Public Library from April 
 
 Shreya had the opportunity to give a [lightening talk](https://www.youtube.com/watch?v=Y_lfGon4iiE&list=PL0MRiRrXAvRhiru4h8fVF987v5tdLlr1X&t=715s) in which she discussed Azure Functions use cases and introduced the v2 programming model for Python. Speaking to the audience, she found that of the attendees, approximately thirty individuals had experience using serverless technologies, less than ten had experience using Azure Functions, and fewer had used Azure Functions in Python.
 
-![Shreya giving a lightning talk on the main stage, slide shows "Azure Functions"](lightning_talk.png)
+![Shreya giving a lightning talk on the main stage, slide shows "Azure Functions"](lightning_talk)
 
 Overall, PyTexas shined a light on the character of the Python community. Though there were presumably over 100 people in the main conference room, it felt more intimate as attendees voiced their questions casually. Known qualities of the Python developer persona were evident, through the shared frustration of the language within the room and amazement at the solutions that were presented which significantly simplified development. For many attendees, it was their 5+ year attending the event, but there were also a fair share of attendees attending for the first time.
 
@@ -16,8 +16,9 @@ PyTexas would be a good conference for Microsoft to have a presence at in the fu
 
 Some takeaways for the team include talking on decorators which helped us determine what principles of decorators make sense to Python developers when considering the v2 programming model. Several discussions also centered on development principles like writing clean code, security principles of open source repositories, and test driven development. These principles can likely be applied to improve the Python worker code base.
 
-![](quotes.png)
-![Chart labeled "What's the difference between good and great programmers(anecdotally)". Shows that great programmers spend more time refactoring than good programmers.](chart.png)
+![](quotes.jpg)
+
+![Chart labeled "What's the difference between good and great programmers(anecdotally)". Shows that great programmers spend more time refactoring than good programmers.](chart.jpg)
 
 # Notes
 
